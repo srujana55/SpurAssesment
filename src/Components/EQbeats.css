@@ -1,0 +1,41 @@
+.eqdiv{
+    padding:30px;
+    
+}
+
+.eqpara{
+    color:#454446  ;
+    margin-bottom:10px;
+    font-weight: 400;
+}
+
+.eqHeading{
+    font-size:20px;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .eqdiv{
+        padding-left:20px;
+    }
+
+    .eqHeading{
+        font-size: 25px;
+        width: 30vw;
+    }
+    .eqpara{
+    
+        max-width:400px;
+        font-size:20px;
+        margin-right: 20px;
+    }
+    .eqdivContent{
+        display: flex;
+        justify-content: space-between;
+    }
+    .cardCon{
+        width:70vw;
+        display: flex;
+        justify-content: space-between;
+    }
+}

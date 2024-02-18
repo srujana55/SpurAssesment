@@ -1,0 +1,62 @@
+.jobVDiv{
+    padding:20px;
+}
+
+.jobCard{
+    background-color: #F6F7E2;
+    border-radius:20px;
+    max-width: 500px;
+    padding:30px;
+    margin:10px;
+
+}
+.jobrolesCon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li{
+    list-style:disc;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color:#41413E ;
+}
+
+.jobrole{
+    font-size:18px;
+}
+.hrRule{
+    width: 93%; /* Decrease the width of the horizontal rule */
+  margin: 0 auto;
+    margin-top:50px;
+    border-top: 1px solid #CBCBC6 ;
+}
+
+.footerSec{
+    display: flex;
+    justify-content: center;
+}
+.jobsHeading{
+    font-size:25px;
+}
+
+
+
+
+@media only screen and (min-width: 768px) {
+
+    .jobVDiv{
+        padding:60px;
+    }
+   
+    .jobsHeading{
+        margin-left:30px;
+        font-size:40px;
+    }
+    .jobrolesCon{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}

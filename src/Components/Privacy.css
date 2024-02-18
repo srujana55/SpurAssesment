@@ -1,0 +1,57 @@
+.privacyDiv{
+    padding:30px;
+    height:70vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.privacyPara{
+    font-size:20px;
+    font-weight: 400;
+}
+
+.privacyHeading{
+   font-size:30px;
+}
+
+.privacyDes{
+    color:#474847 ;
+    font-size:20px;
+    font-weight: 400;
+}
+
+.privacyBtn{
+    font-size:15px;
+    color:white;
+    background-color: black;
+    border-radius:25px;
+    
+    padding:15px;
+    border-width:0px;
+}
+
+.my-button {
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Add a smooth transition for the hover effect */
+  }
+  
+  .my-button:hover {
+    background-color: #424542; /* Change the background color on hover */
+  }
+
+
+  @media only screen and (max-width: 785px) {
+    .privacyHeading{
+        font-size:24px;
+     }
+     .privacyPara{
+        font-size:18px ;
+     }
+     .privacyDes{
+        font-size: 20px;
+     }
+  }
+  

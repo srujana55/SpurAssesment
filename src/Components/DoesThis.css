@@ -1,0 +1,9 @@
+@media only screen and (max-width: 800px) {
+    .customHeading {
+      font-size:30px;
+    }
+    .customImgstyle{
+        height:35px;
+    }
+    
+  }
