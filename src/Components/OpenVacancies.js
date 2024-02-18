@@ -25,7 +25,7 @@ const OpenVacancies = () => {
           overflow: "hidden", // Hide overflowing text while sliding
         }}
       >
-        <h1 className="jobsHeading font-bold">Open Vacancies</h1>
+        <h1 className="jobsHeading text-5xl font-bold">Open Vacancies</h1>
       </motion.div>
         <br/>
         <div className='jobrolesCon'>

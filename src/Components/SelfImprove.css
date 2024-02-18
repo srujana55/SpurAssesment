@@ -1,0 +1,26 @@
+@media only screen and (max-width: 800px) {
+    .CustomSelf{
+        font-size:25px;
+    }
+    .Customwrong{
+        font-size:15px;
+        font-weight: 400;
+    }
+    .customTop{
+        margin-bottom: 0px;
+        padding:30px;
+    }
+    .customScroll{
+             padding:30px;
+    }
+
+    .customPara{
+        font-size:15px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+   .innerCard{
+    margin-top:0px;
+   }
+  }

@@ -1,9 +1,15 @@
 @media only screen and (max-width: 800px) {
     .customHeading {
-      font-size:30px;
+      padding:20px;
+      font-size:25px;
+      margin-bottom: 0px;
+      padding-bottom: 0px;;
     }
     .customImgstyle{
         height:35px;
     }
     
+    .custom-para{
+      font-size:15px;
+    }
   }

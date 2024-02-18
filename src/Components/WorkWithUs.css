@@ -1,0 +1,46 @@
+.firstPart{
+    width:40vw;
+}
+.secondPart{
+    width: 30vw;
+}
+
+
+@media  screen and (max-width:768px) {
+    .outerCon{
+        padding:0px;
+        margin:15px;  
+    }
+    .para{
+        font-size:12px;
+    }
+    .outerCon2{
+        padding:15px;
+    }
+    .Heading{
+        font-size: 25px;
+    }
+    .firstPart{
+      width:100%;
+    }
+
+    .secondPart{
+         width:100vw;
+         max-height: 60vh;
+         padding:30px;
+         
+       
+    }
+   
+    .Con{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .secondPartInnerCard{
+        width:90vw;
+        padding-right: 0px;
+        border-top-left-radius:20px ;
+        border-bottom-left-radius:20px ;
+    }
+}

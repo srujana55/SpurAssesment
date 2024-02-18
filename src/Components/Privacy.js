@@ -3,7 +3,7 @@ import './Privacy.css'
 
 const Privacy = () => {
   return (
-    <div className="privacyDiv">
+    <div className="privacyDiv mb-5">
     <div >
         <p className="privacyPara">We take privacy seriously</p>
         <h2 className="privacyHeading font-bold">Before you get started</h2>

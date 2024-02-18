@@ -1,0 +1,31 @@
+
+.colo{
+    color:#454446 ;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .smallImgs{
+        display:none;
+    }
+    .wrapper{
+        padding:20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .changeColor{
+        background-color: transparent;
+        border:0px;
+    }
+    .customHead{
+        font-size:25px;
+    }
+    .sideCardDiv{
+        margin:0px;
+    }
+    .outer{
+        padding:0px;
+        margin:15px;  
+        
+    }
+  }

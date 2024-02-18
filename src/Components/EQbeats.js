@@ -25,7 +25,7 @@ const EQbeatsIQ = (props) => {
            // Hide overflowing text while sliding
         }}
       >
-        <h2 className="eqHeading font-bold">{eqHeading}</h2>
+        <h2 className=" px-20 eqHeading font-bold customHead">{eqHeading}</h2>
       </motion.div>
             
             <div className="cardCon">

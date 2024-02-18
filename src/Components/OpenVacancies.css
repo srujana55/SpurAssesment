@@ -37,9 +37,7 @@ li{
     display: flex;
     justify-content: center;
 }
-.jobsHeading{
-    font-size:25px;
-}
+
 
 
 
@@ -52,11 +50,17 @@ li{
    
     .jobsHeading{
         margin-left:30px;
-        font-size:40px;
+       
     }
     .jobrolesCon{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .jobsHeading{
+        font-size:25px;
     }
 }

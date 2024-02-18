@@ -29,8 +29,8 @@ const DoesThis = () => {
     }
   }, [isIntersecting]);
   return (
-    <section className="overflow-x-hidden mt-12 mb-28 p-4 px-20" ref={ref}>
-      <div className="flex flex-row items-center justify-between">
+    <section className="overflow-x-hidden mt-12 mb-28 p-4 px-20 customHeading" ref={ref}>
+      <div className="flex flex-row items-center justify-between ">
         <motion.div
           className="inline-block"
           initial="hidden"
@@ -72,7 +72,7 @@ const DoesThis = () => {
         <div className="rounded-xl bg-purple-200 min-w-[350px]  p-6 flex flex-col gap-4 hover:scale-110 hover:-rotate-12 hover:duration-300 ease-in-out">
           <img className="customImgstyle" width={70} height={70} alt="" src="/angry-emoji.svg" />
           <h3 className="font-bold text-lg">You argue with a colleague</h3>
-          <p className="text-gray-700">
+          <p className="text-gray-700 custom-para">
             You get angry and defensive,instead of staying open and working
             towards common ground
           </p>
@@ -83,7 +83,7 @@ const DoesThis = () => {
           <h3 className="font-bold text-lg text-white">
             You get a prmotion at work
           </h3>
-          <p className="text-white">
+          <p className="text-white custom-para">
             You question yourself and wonder unqualified imposter instead of
             trusting yourself & your abilites
           </p>
@@ -92,7 +92,7 @@ const DoesThis = () => {
         <div className="rounded-xl bg-yellow-200 min-w-[350px]  p-6 flex flex-col gap-4 hover:scale-110 hover:-rotate-12 hover:duration-300  ease-in-out">
         <img className="customImgstyle" width={70} height={70} alt="" src="/sad-emoji.svg" />
           <h3 className="font-bold text-lg ">You attend a class reunion</h3>
-          <p className="text-gray-700">
+          <p className="text-gray-700 custom-para">
             You compare yourelf with your peers your self judgement more
             independent of others.
           </p>
@@ -100,10 +100,10 @@ const DoesThis = () => {
 
         <div className=" rounded-xl bg-violet-600 min-w-[350px]  p-6 flex flex-col gap-4 hover:scale-110 hover:-rotate-12 hover:duration-300 ease-in-out">
         <img className="customImgstyle" width={70} height={70} alt="" src="/fright-emoji.svg" />
-          <h3 className="font-bold text-white ">
+          <h3 className="font-bold text-white">
             You are at a lively dinner party
           </h3>
-          <p className="text-white">
+          <p className="text-white custom-para">
             You play on your phone instead of confidently approaching
             strangers and striking up a chat
           </p>
@@ -114,7 +114,7 @@ const DoesThis = () => {
           <h3 className="font-bold text-lg ">
             You hit dead end in a negotiation
           </h3>
-          <p className="text-gray-700">
+          <p className="text-gray-700 custom-para">
             You get fruzzeled, nervous and frustated instead of staying
             optmisitic and solution-oriented.
           </p>
@@ -123,7 +123,7 @@ const DoesThis = () => {
         <div className="rounded-xl bg-purple-200 min-w-[350px]  p-6 flex flex-col gap-4 hover:scale-110 hover:-rotate-12 hover:duration-300 ease-in-out">
         <img className="customImgstyle" width={70} height={70} alt="" src="/angry-emoji.svg" />
           <h3 className="font-bold text-lg">You argue with a colleague</h3>
-          <p className="text-gray-700">
+          <p className="text-gray-700 custom-para">
             You get angry and defensive,instead of staying open and working
             towards common ground
           </p>
@@ -133,7 +133,7 @@ const DoesThis = () => {
           <h3 className="font-bold text-white">
             You are at a lively dinner party
           </h3>
-          <p className="text-white">
+          <p className="text-white custom-para">
             You play on your phone instead of confidentaly approaching
             starangersand striking up a chat
           </p>
@@ -144,7 +144,7 @@ const DoesThis = () => {
           <h3 className="font-bold text-lg ">
             You hit dead end in a negotiation
           </h3>
-          <p className="text-gray-700">
+          <p className="text-gray-700 custom-para">
             You get fruzzeled, nervous and frustated instead of staying
             optmisitic and solution-oriented.
           </p>
