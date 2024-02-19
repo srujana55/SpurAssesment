@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.active{
+    color:blueviolet;
+}
+
+
+p{
+   font-size:17px;
+}
+nav .menu{
+    display: none;
+ position: absolute;
+ top:0.75rem;
+ right:0.5rem;
+ flex-direction: column;
+ justify-content: space-between;
+ width:2.25rem;
+ height:2rem;
+}
+
+nav .menu span{
+    height:0.4rem;
+    width:100%;
+    background-color:gray;
+    border-radius: 0.2rem;
+}
+.menuCon{
+    display: none;
+}
+
+@media screen and (max-width:768px){
+    nav .menu{
+        display: flex;
+    }
+     
+    .menu{
+        margin:10px;
+    }
+
+    .linkelements{
+        display: none;
+    }
+    .download{
+        margin-right: 20px;
+    }
+    .menuCon{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .menuCon p{
+        padding:10px;
+       
+      
+    }
+
+    .smallMenu{
+        margin-top:80px;
+    }
+  
+}
