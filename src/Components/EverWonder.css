@@ -1,0 +1,15 @@
+
+
+@media screen and (max-width:768px){
+    .headingblue{
+        font-size:25px;
+    }
+    .blueBox{
+        width:100%;
+        padding:10px;
+        position: static;
+        overflow-x:hidden;
+
+    }
+   
+}

@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import React from "react";
 import './WorkWithUs.css'
+import OpenVacancies from "./OpenVacancies";
+
 
 const DataArr=[{index:0,title:"Power through, even when the going gets tough",des:"We help you spot and work around whatever stands in the way, be it bad habits, fears, etc."},
 {index:1,title:"Learn more about who you are and where you want to go",des:"We ask the right questions to help you better understand why you do things the way you do."},
@@ -13,6 +15,8 @@ const DataArr=[{index:0,title:"Power through, even when the going gets tough",de
 
 const WorkWithUs = () => {
   return (
+    <>
+
     <div className="px-20 my-32 outerCon">
       <section className="mt-16 outerCon2  rounded-2xl bg-violet-100 p-12 px-16">
         <div className="flex outerCon  justify-between items-center text-5xl font-bold">
@@ -93,6 +97,8 @@ const WorkWithUs = () => {
         </div>
       </section>
     </div>
+    <OpenVacancies/>
+    </>
   );
 };
 

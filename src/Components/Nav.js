@@ -19,7 +19,7 @@ const ele=(<> <div className="smallMenu">
   <NavLink to='/manifesto'>
   <p className="cursor-pointer font-semibold ">Manifesto</p>
   </NavLink>
-  <NavLink to='/awarness'>
+  <NavLink to='/awareness'>
   <p className="cursor-pointer font-semibold ">
     Self awareness test
   </p>
@@ -49,7 +49,7 @@ const ele=(<> <div className="smallMenu">
           <NavLink to='/manifesto'>
           <p className="cursor-pointer font-semibold ">Manifesto</p>
           </NavLink>
-          <NavLink to='/awarness'>
+          <NavLink to='/awareness'>
           <p className="cursor-pointer font-semibold ">
             Self awareness test
           </p>

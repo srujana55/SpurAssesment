@@ -1,14 +1,22 @@
 import React from 'react'
 import { motion } from "framer-motion";
+import EQbeats from './EQbeats';
 import './Intro.css'
+import DoesThis from './DoesThis';
+import Privacy from './Privacy';
+
+import WorkWithUs from './WorkWithUs';
+import Manifesto from './Manifesto';
+import EverWonder from './EverWonder';
 
 const Intro = () => {
     return (
+        <>
         <div className="px-20 mt-28 outerBox">
             <div style={{ height: "550px" }} className='bg-bgBlue blueBox relative rounded-3xl flex flex-col md:flex-row overflow-hidden'>
                 <div className=' flex basis-1/2 items-center justify-center '>
                     <div className='pl-20 adjustPadding flex items-center justify-start flex-col'>
-                        <div className='w-full'><p className='text-lg'>Ahead app</p></div>
+                        <div className='w-full'><p className='text-lg textA'>Ahead app</p></div>
                         <div><p className='mt-5  text-5xl font-bold heading'>Master Your life by mastering emotions</p></div>
                         <div className="flex gap-7 items-center  w-full">
                             <img
@@ -104,6 +112,13 @@ const Intro = () => {
                 <motion.div whileInView="visible" viewport={{ once: true }} animate={{ x :150 }} transition={{ type: "spring", duration: 4, bounce: 0.4 }}  style={{left :"150px",top:"0px"}} className='absolute  h-12 w-12'><img src="/singleLeaf.png" height={48} width={48} alt="" /></motion.div>
             </div>
         </div>
+        <EQbeats eqHeading="EQ beats IQ" eqpara1="People with high emotional intelligence (EQ) live more fulfilled lives. They tend to behappier and have healtheir relationships." eqpara2="They are more successful in their pursuits and make forinspiring leaders. According to science, they earns $29 a year." />
+        <DoesThis/>
+        <Manifesto/>
+        <EverWonder/>
+       <Privacy/>
+       <WorkWithUs/>
+        </>
     )
 }
 

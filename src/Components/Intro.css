@@ -3,7 +3,9 @@
         font-size: 25px;
     }
     .outerBox{
-        position:fixed;
+        
+        height:100%;
+       
         padding:0px;
         margin:15px; 
     
@@ -13,13 +15,16 @@
     .applestore{
         height:100px;
     }
-    .blueBox{
+    .blueBox{     
         width:85vw;
         margin:20px;
         padding:5px;
         text-align: center;
     }
 
+    .textA{
+        margin-top:50px;
+    }
     .adjustPadding{
         padding-left: 0px;;
     }
