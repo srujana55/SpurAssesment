@@ -16,4 +16,5 @@ All the resources like the ahead icon etc are in the public folder.
 ### Mobile View:
  ![image](https://github.com/srujana55/SpurAssesment/assets/73210291/cda4d692-1d2d-48e0-8c0b-35f411c7f7de)
 
-
+### Netlify Link:
+https://65d33ca6ced3b1009c6972c4--heartfelt-sopapillas-f674b1.netlify.app/
